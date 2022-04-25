@@ -10,5 +10,5 @@ public interface MemberService {
 
 	void notify(Study newStudy);
 	
-	void validate(Long memberId) throws RuntimeException;
+	void validate(Long memberId) throws RuntimeException;		//	
 }
