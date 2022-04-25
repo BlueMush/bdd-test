@@ -53,7 +53,7 @@ public class createStudyService {
 		
 		// bdd
 		given(memberServiceMock.findById(1L)).willReturn(Optional.of(member));
-		//
+		//d
 		// tdd
 //		when(memberServiceMock.findById(any()))
 //			.thenReturn(Optional.of(member));
