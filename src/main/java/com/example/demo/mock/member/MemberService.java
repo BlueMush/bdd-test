@@ -9,4 +9,6 @@ public interface MemberService {
     Optional<Member> findById(Long memberId) throws MemberNotFoundException;
 
 	void notify(Study newStudy);
+	
+	void validate(Long memberId) throws RuntimeException;
 }
